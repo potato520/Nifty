@@ -1,0 +1,128 @@
+!SESSION 2017-05-03 14:28:04.486 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-03 14:29:08.632
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\youkaili'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.zend.php.zendserver.deployment.ui 4 0 2017-05-03 14:29:22.618
+!MESSAGE No local installation of Zend Server was found.
+!STACK 0
+org.zend.sdklib.manager.DetectionException: Error occurred while getting server installation parameters
+	at org.zend.php.zendserver.deployment.core.targets.ZendServerManager.getLocalZendServerFromRegistry(ZendServerManager.java:252)
+	at org.zend.php.zendserver.deployment.core.targets.ZendServerManager.getLocalZendServer(ZendServerManager.java:106)
+	at org.zend.php.zendserver.deployment.ui.LocalZendServerStartup$1.run(LocalZendServerStartup.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ice.jni.registry.NoSuchKeyException: RegOpenKeyEx(), key='Zend Technologies'
+	at com.ice.jni.registry.RegistryKey.openSubKey(Native Method)
+	at com.ice.jni.registry.RegistryKey.openSubKey(RegistryKey.java:185)
+	at org.zend.php.zendserver.deployment.core.targets.ZendServerManager.getZendServerRegistryKey(ZendServerManager.java:274)
+	at org.zend.php.zendserver.deployment.core.targets.ZendServerManager.getLocalZendServerFromRegistry(ZendServerManager.java:225)
+	... 3 more
+
+!ENTRY org.eclipse.core.resources 4 77 2017-05-03 14:30:10.576
+!MESSAGE 项目描述无效。
+!SUBENTRY 1 unknown 0 0 2017-05-03 14:30:10.576
+!MESSAGE 确定
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2017-05-03 14:30:10.576
+!MESSAGE F:\phpStudy\WWW\Nifty 与工作空间位置 F:\phpStudy\WWW\Nifty 重叠
+
+!ENTRY org.eclipse.core.resources 4 77 2017-05-03 14:30:38.534
+!MESSAGE 项目描述无效。
+!SUBENTRY 1 unknown 0 0 2017-05-03 14:30:38.534
+!MESSAGE 确定
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2017-05-03 14:30:38.534
+!MESSAGE F:\phpStudy\WWW\Nifty 与工作空间位置 F:\phpStudy\WWW\Nifty 重叠
+!SESSION 2017-05-03 14:34:40.967 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -showlocation -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -data F:\phpStudy\WWW\Nifty -showlocation
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-03 14:34:56.497
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\youkaili'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2017-05-03 14:35:00.418
+!MESSAGE The debug port 9000 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2017-05-03 14:35:00.421
+!MESSAGE The debug port 10137 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2017-05-03 14:35:00.422
+!MESSAGE Could not open a broadcast port on: 20080 (port might be in use). Please select a different port number
+
+!ENTRY org.eclipse.ui.workbench 4 2 2017-05-03 14:35:02.670
+!MESSAGE 从插件调用代码时出现问题：“org.eclipse.ui.workbench”。
+!STACK 0
+java.lang.IllegalStateException: The profile is currently in use.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfileStateProperties(SimpleProfileRegistry.java:1182)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileStateProperties(SimpleProfileRegistry.java:1172)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.isFirstTimeRunningThisSharedInstance(MigrationSupport.java:133)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.performMigration(MigrationSupport.java:54)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:90)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:90)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:68)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2852)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2017-05-03 14:35:02.699
+!MESSAGE Unhandled Exception
+!SUBENTRY 1 org.eclipse.equinox.p2.ui.sdk.scheduler 4 0 2017-05-03 14:35:02.699
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.IllegalStateException: The profile is currently in use.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfileStateProperties(SimpleProfileRegistry.java:1182)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileStateProperties(SimpleProfileRegistry.java:1172)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.isFirstTimeRunningThisSharedInstance(MigrationSupport.java:133)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.performMigration(MigrationSupport.java:54)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:90)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:90)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:68)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$56.run(Workbench.java:2852)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.zend.php.zendserver.deployment.ui 4 0 2017-05-03 14:35:03.781
+!MESSAGE No local installation of Zend Server was found.
+!STACK 0
+org.zend.sdklib.manager.DetectionException: Error occurred while getting server installation parameters
+	at org.zend.php.zendserver.deployment.core.targets.ZendServerManager.getLocalZendServerFromRegistry(ZendServerManager.java:252)
+	at org.zend.php.zendserver.deployment.core.targets.ZendServerManager.getLocalZendServer(ZendServerManager.java:106)
+	at org.zend.php.zendserver.deployment.ui.LocalZendServerStartup$1.run(LocalZendServerStartup.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ice.jni.registry.NoSuchKeyException: RegOpenKeyEx(), key='Zend Technologies'
+	at com.ice.jni.registry.RegistryKey.openSubKey(Native Method)
+	at com.ice.jni.registry.RegistryKey.openSubKey(RegistryKey.java:185)
+	at org.zend.php.zendserver.deployment.core.targets.ZendServerManager.getZendServerRegistryKey(ZendServerManager.java:274)
+	at org.zend.php.zendserver.deployment.core.targets.ZendServerManager.getLocalZendServerFromRegistry(ZendServerManager.java:225)
+	... 3 more
+
+!ENTRY org.zend.php.zendserver.deployment.ui 4 0 2017-05-03 14:35:13.662
+!MESSAGE Address already in use: JVM_Bind
+!STACK 0
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener.openServerSocket(SocketCommandListener.java:69)
+	at org.zend.php.zendserver.deployment.ui.chrome.SocketCommandListener$1.run(SocketCommandListener.java:39)
+	at java.lang.Thread.run(Thread.java:745)
