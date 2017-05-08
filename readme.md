@@ -6,7 +6,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-## 浣熊使用Laravel开发的博客系统名字叫做： Nifty - blog
+<p align="center">这里是浣熊使用Laravel开发的博客系统名字叫做： Nifty - blog</p>
 
 ## About Laravel
 
